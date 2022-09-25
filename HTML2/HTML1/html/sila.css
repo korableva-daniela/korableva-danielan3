@@ -30,19 +30,19 @@
 }
 
     .tabletask th {
-        font-weight: 400;
+        font-weight: 500;
         color: #800000;
-        padding: 10px 15px;
+        padding: 10px 10px;
     }
 
     .tabletask td {
         color: #A0522D;
-        font-weight: 500;
-        padding: 10px 15px;
+        font-weight: 800;
+        padding: 10px 10px;
     }
 
     .tabletask caption {
-        font-size: 30px;
+        font-size: 20px;
         text-decoration-color: #FFEBCD
     }
 
@@ -177,4 +177,3 @@ footer {
         text-align: left;
     }
 }
-
