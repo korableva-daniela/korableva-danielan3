@@ -13,7 +13,7 @@
 }
     .linkedlist a {
         color: #A52A2A;
-        font-size: 15px;
+        font-size: 10px;
     }
     .tabletask {
     order: 1
@@ -27,19 +27,19 @@
         border: 7px double #696969;
     }
     .tabletask th {
-        font-weight: 600;
+        font-weight: 500;
         color: #800000;
-        padding: 10px 15px;
+        padding: 5px 5px;
        
     }
     .tabletask td {
         color: #A0522D;
-        font-weight: 900;
-        padding: 10px 15px;
+        font-weight: 700;
+        padding: 5px 5px;
         
     }
     .tabletask caption {
-        font-size: 40px;
+        font-size: 30px;
         text-decoration-color: #FFEBCD
     }
 .tabletask tr:nth-child(even) {background:#F4A460;}
