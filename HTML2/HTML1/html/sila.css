@@ -13,7 +13,7 @@
 }
     .linkedlist a {
         color: #A52A2A;
-        font-size: 20px;
+        font-size: 15px;
     }
     .tabletask {
     order: 1
@@ -139,7 +139,7 @@ footer {
 
     .menu {
         flex-direction: row;
-        max-width: 960px;
+        max-width: 800px;
         text-align: center;
     }
         .menu a {
@@ -148,7 +148,7 @@ footer {
         }
 
     img {
-        max-width: 960px;
+        max-width: 800px;
     }
 
     h1 {
