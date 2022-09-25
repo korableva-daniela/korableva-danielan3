@@ -11,50 +11,58 @@
     border-bottom: 7px double #FFE4C4;
     margin: auto;
 }
+
     .linkedlist a {
         color: #A52A2A;
-        font-size: 10px;
+        font-size: 20px;
     }
-    .tabletask {
+
+.tabletask {
     order: 1
 }
-    .tabletask {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-  
-        text-align: center;
-        border: 7px double #696969;
-    }
+
+.tabletask {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    border: 7px double #696969;
+}
+
     .tabletask th {
-        font-weight: 500;
+        font-weight: 400;
         color: #800000;
-        padding: 5px 5px;
-       
+        padding: 10px 15px;
     }
+
     .tabletask td {
         color: #A0522D;
-        font-weight: 700;
-        padding: 5px 5px;
-        
+        font-weight: 500;
+        padding: 10px 15px;
     }
+
     .tabletask caption {
         font-size: 30px;
         text-decoration-color: #FFEBCD
     }
-.tabletask tr:nth-child(even) {background:#F4A460;}
+
+    .tabletask tr:nth-child(even) {
+        background: #F4A460;
+    }
+
 img {
-    max-width:50%;
+    max-width: 50%;
     height: auto;
 }
+
 header {
     text-align: center;
     letter-spacing: 2px;
     background: #FFF0F5;
     color: #A52A2A;
     border-bottom: 5px outset #FFE4E1;
-
 }
+
 .logo {
     width: 70px;
     float: left;
@@ -62,21 +70,23 @@ header {
     text-align: left;
     border-radius: 25% 10%;
 }
+
 h1 {
     text-align: center;
     font-size: 25px;
     color: #A52A2A;
-   
 }
+
 a {
     text-decoration: none;
-
 }
+
 .smt {
     margin: auto;
     text-align: left;
     max-width: 960px;
 }
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -86,6 +96,7 @@ a {
     background-color: #FFF8DC;
     border-bottom: 7px dotted #DEB887;
 }
+
     .menu a {
         text-align: center;
         color: #A52A2A;
@@ -98,7 +109,7 @@ a:hover {
     color: #FFF8DC;
     background: #A52A2A;
 }
- 
+
 .content {
     display: flex;
     flex-flow: nowrap column;
@@ -106,22 +117,21 @@ a:hover {
     text-align: center;
     margin: auto;
     font-size: 100%;
-    
-   
 }
+
 form {
     display: flex;
     flex-direction: column;
     border: 7px dashed #9370DB;
     background-color: #FFFFE0;
     color: #CD5C5C;
-
 }
+
 footer {
     font-size: 30px;
     background-color: #CD853F;
-
 }
+
 @media (min-width: 800px) {
 
     .tabletask {
@@ -139,16 +149,16 @@ footer {
 
     .menu {
         flex-direction: row;
-        max-width: 800px;
+        max-width: 960px;
         text-align: center;
     }
+
         .menu a {
-           
             text-align: center;
         }
 
     img {
-        max-width: 800px;
+        max-width: 960px;
     }
 
     h1 {
