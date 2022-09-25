@@ -32,17 +32,17 @@
     .tabletask th {
         font-weight: 500;
         color: #800000;
-        padding: 10px 10px;
+        padding: 3px 3px;
     }
 
     .tabletask td {
         color: #A0522D;
-        font-weight: 800;
-        padding: 10px 10px;
+        font-weight: 600;
+        padding: 3px 3px;
     }
 
     .tabletask caption {
-        font-size: 20px;
+        font-size: 15px;
         text-decoration-color: #FFEBCD
     }
 
@@ -132,7 +132,7 @@ footer {
     background-color: #CD853F;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
 
     .tabletask {
         max-width: 700px;
@@ -167,7 +167,7 @@ footer {
     }
 
     .content {
-        max-width: 800px;
+        max-width: 960px;
     }
 
     .logo {
@@ -177,3 +177,4 @@ footer {
         text-align: left;
     }
 }
+
