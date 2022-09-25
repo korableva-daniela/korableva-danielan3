@@ -31,6 +31,7 @@
 
     .tabletask th {
         font-weight: 400;
+        font-size: 7px;
         color: #800000;
         padding: 3px 3px;
     }
@@ -38,6 +39,7 @@
     .tabletask td {
         color: #A0522D;
         font-weight: 400;
+        font-size: 7px;
         padding: 3px 3px;
     }
 
