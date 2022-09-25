@@ -45,6 +45,8 @@
 
     .tabletask caption {
         font-size: 20px;
+        border-bottom: 5px solid #696969;
+
         text-decoration-color: #FFEBCD
     }
 
